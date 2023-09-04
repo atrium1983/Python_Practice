@@ -13,12 +13,9 @@ for i in range(N):
     list.append(random.randint(-5, 4))
 print(list)
 
-# Решение через множества
+# Решение через множества 1
 
-list_2 = set()
-
-for i in list:
-    list_2.add(i)
+list_2 = set(list)
 
 # Решение через списки
 
